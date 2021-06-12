@@ -11,5 +11,5 @@ base64_bytes2 = base64.b64decode(base64_bytes)
 
 
 print("Hash (You can share it.) " + str(base64_bytes))
-print("You will get your text separated by spaces. \n original text                 hash")
+print("You will get your text separated by spaces. \n original text                 Salt")
 print("Decrypted " + str(base64_bytes2))
